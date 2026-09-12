@@ -18,7 +18,7 @@ const translations = {
     nav_references: "المعرفين",
     nav_contact: "تواصل",
     lang_switch_label: "EN",
-    
+
     hero_welcome: "الملف التعريفي الطبي والمهني",
     hero_name_1: "د. صالح أحمد صالح",
     hero_name_2: "بن الشكل",
@@ -26,7 +26,7 @@ const translations = {
     role_dentist: "طالب طب وجراحة الفم والأسنان",
     role_author: "كاتب ومؤلف",
     role_creator: "صانع محتوى إعلامي",
-    hero_bio: "تجمع مسيرتي بين دقة طب وجراحة الأسنان والرعاية الصحية، وإبداع الكتابة والأدب، وشغف صناعة المحتوى للإعلام.",
+    hero_bio: "تجمع مسيرتي بين دقة طب وجراحة الأسنان والرعاية الصحية، وإبداع الكتابة والأدب، وشغف صناعة المحتوى للإعلام",
     btn_medical: "المسار الطبي",
     btn_explore: "استعرض مؤلفاتي",
     btn_contact: "تواصل معي",
@@ -156,7 +156,7 @@ const translations = {
     nav_references: "References",
     nav_contact: "Contact",
     lang_switch_label: "AR",
-    
+
     hero_welcome: "Medical & Official Portfolio",
     hero_name_1: "Dr. Saleh Ahmed Saleh",
     hero_name_2: "Bin Al-Shakl",
@@ -313,7 +313,7 @@ function toggleTheme() {
 function setLanguage(lang) {
   currentLang = lang;
   localStorage.setItem('site_lang', lang);
-  
+
   const htmlEl = document.documentElement;
   htmlEl.lang = lang;
   htmlEl.dir = lang === 'ar' ? 'rtl' : 'ltr';
